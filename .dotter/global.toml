@@ -1,0 +1,25 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+"global.toml" = ""
+"local.toml" = ""
+
+[cargo.files]
+cargo = { target = "~/.cargo/config", type = "symbolic" }
+
+
+[fish.files]
+# Optional local variables: email+git_username
+fish = { target = "~/.config/fish", type = "symbolic", recurse = false }
+
+[shell.files]
+# Optional local variables: email+git_username
+tmux = "~/.tmux.conf"
+git = { target = "~/.gitconfig", type = "symbolic" }
+ripgrep = { type = "symbolic", target = "~/.ripgreprc", if = '(is_executable "rg")'}
+
+
+[default.variables]

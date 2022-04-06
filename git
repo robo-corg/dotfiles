@@ -1,0 +1,7 @@
+[user]
+	email = amcharg@octoml.ai
+	name = Andrew McHarg
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
