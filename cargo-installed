@@ -1,0 +1,13 @@
+bat
+cargo-audit
+cargo-edit
+cargo-udeps
+dotter
+du-dust
+fd-find
+hexyl
+jql
+just
+mdbook
+ripgrep
+sqlx-cli

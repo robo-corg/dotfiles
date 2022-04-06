@@ -21,5 +21,7 @@ tmux = "~/.tmux.conf"
 git = { target = "~/.gitconfig", type = "symbolic" }
 ripgrep = { type = "symbolic", target = "~/.ripgreprc", if = '(is_executable "rg")'}
 
+[ssh.files]
+ssh = "~/.ssh/config"
 
 [default.variables]
