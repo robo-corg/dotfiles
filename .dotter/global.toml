@@ -19,6 +19,7 @@ fish = { target = "~/.config/fish", type = "symbolic", recurse = false }
 # Optional local variables: email+git_username
 tmux = "~/.tmux.conf"
 git = { target = "~/.gitconfig", type = "symbolic" }
+gitignore = { target = "~/.gitignore", type = "symbolic" }
 ripgrep = { type = "symbolic", target = "~/.ripgreprc", if = '(is_executable "rg")'}
 
 [ssh.files]
