@@ -1,7 +1,12 @@
+#[user]
+#	email = amcharg@octoml.ai
+#	name = Andrew McHarg
 [user]
-	email = amcharg@octoml.ai
+	email = amcharg@gmail.com
 	name = Andrew McHarg
 [pull]
 	ff = only
 [init]
 	defaultBranch = main
+[core]
+	excludesFile = ~/.gitignore
